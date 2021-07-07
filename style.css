@@ -3,12 +3,14 @@ body{font-family: 'Poppins', sans-serif;
 
 h1{font-size: 50px;}
 .orange-color{ color:orange;}
-section{ display: flex;
+.flexible-container{ display: flex;
         margin-bottom:100px;}
 .half-width{ width: 50%;
             padding:5%;}
 .half-width img{ width: 100%;}
-.background-image{background-image: url(image/Frame\ 59.jpg);}
+.background-image2{background-image:url(image/Frame\ 59.jpg);
+                background-repeat: no-repeat;
+            background-size: 100% 100%;}
 .link-button{
     text-decoration: none;
     border:1px solid orange;
@@ -17,4 +19,19 @@ section{ display: flex;
     color:white;
     font-weight: 700;
     border-radius: 10px;}
+   .div3{ width:25%; padding: 5%;} 
+   .div3 img{width:80%;}
+   .sptext{ text-align: center;}
+
+   footer{ border: 1px solid black;
+background-color: black;
+padding:20px;}
+.footer-text{ color:orange;} 
+.food{ text-align:center; color:whitesmoke;}
+.footerp{color:wheat; text-align: center;}
+.box{ border: 1px solid white; margin-right: 5%; margin-left: 5%; border-radius: 20px;
+background-color:whitesmoke;}
+.kkk{width:30%;
+ padding-left:15%;}
+
    
